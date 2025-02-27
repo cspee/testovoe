@@ -1,0 +1,28 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 180px;
+  background-color: gray;
+  border-radius: 3px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card-nameContainer {
+  display: flex;
+  gap: 5px;
+}
