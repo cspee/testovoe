@@ -8,6 +8,12 @@
   border-radius: 3px;
 }
 
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -16,6 +22,15 @@
   gap: 5px;
 }
 
+.card-removeBtn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
 .card-img {
   width: 100px;
   height: 100px;
@@ -25,4 +40,12 @@
 .card-nameContainer {
   display: flex;
   gap: 5px;
+}
+
+.swiperContainer {
+  display: flex;
+  justify-content: center;
+}
+.nav-btn {
+  background: none;
 }
